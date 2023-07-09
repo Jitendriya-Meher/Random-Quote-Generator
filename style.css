@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-weight: bolder;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+
+.wrapper{
+    width: 600px;
+    background: #FFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.wrapper header{
+    font-size: 48px;
+    text-align: center;
+}
+
+.content{
+    margin: 35px 0;
+}
+
+.quote-area{
+    display: flex;
+}
+
+.quote-area i{
+    font-size: 18px;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area p{
+    text-align: justify;
+    font-size: 18px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.quote-area i:last-child{
+    margin: 0 0 3px 10px;
+    align-self: flex-end;
+}
+
+.author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+}
+
+.btns{
+    border-top: 1px solid #ccc;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.feature ul{
+    display: flex;
+}
+
+.feature ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    color: #5372F0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #5372F0;
+    cursor: pointer;
+
+    transition: all .3s ease-in-out;
+}
+
+.feature ul li:hover{
+    color: #fff;
+    background: #5372F0;
+
+    transition: all .3s ease-in-out;
+}
+
+.feature button{
+   border: none;
+   outline: 0;
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   padding: 13px 22px;
+   border-radius: 30px;
+   background: #5372F0;
+}
